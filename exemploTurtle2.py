@@ -1,0 +1,33 @@
+import turtle
+
+janela = turtle.Screen()
+janela.bgcolor("lightblue")
+
+tata = turtle.Turtle()
+tata.shape("turtle")
+tata.speed(3)
+tata.stamp()
+tata.color("darkblue")
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+
+janela.bgcolor("lightyellow")
+tata.color("red")
+tata.goto(0,0)
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+
+janela.bgcolor("lightblue")
+tata.color("yellow")
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+tata.left(120)
+tata.forward(150)
+janela.exitonclick()
